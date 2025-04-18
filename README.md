@@ -4,7 +4,7 @@ This repository contains the implementation of aspect-based learning for Vietnam
 
 ## Project Structure
 
-- `crawl_data.ipynb`: This notebook handles the data crawling process, extracting fashion shop comments from TIKI platform and saving them in a structured format for further analysis.
+- `crawl_data.py`: This notebook handles the data crawling process, extracting fashion shop comments from TIKI platform and saving them in a structured format for further analysis.
 - `EDA.ipynb`: This notebook covers the Exploratory Data Analysis (EDA) of the dataset, providing insights into the distribution of aspects and sentiment classes in the dataset, normalize and clean the data, preprocess before training the models.
 - `machine-learning-absa.ipynb`: This notebook contains the machine learning models, including implementations of **Random Forest** for aspect detection and **SVM** for sentiment analysis.
 - `multitask-absa-bigru-conv1d.ipynb`: This notebook contains the deep learning models, featuring **BiGRU** and **Conv1D** architectures for multitasking on aspect detection and sentiment analysis.
@@ -24,7 +24,7 @@ This repository contains the implementation of aspect-based learning for Vietnam
 
 ## Usage
 
-1. **Data Crawling**: Run the `crawl_data.ipynb` notebook to collect Vietnamese text data for ABSA.
+1. **Data Crawling**: Run the `crawl_data.py` file to collect Vietnamese text data for ABSA.
 2. **Exploratory Data Analysis**: Use the `EDA.ipynb` notebook to analyze and prepare the dataset before applying machine learning or deep learning models.
 3. **Machine Learning Models**: Train and evaluate the Random Forest and SVM models by running the `machine-learning-absa.ipynb` notebook.
 4. **Deep Learning Models**: Train and evaluate the BiGRU and Conv1D models by running the `multitask-absa-bigru-conv1d.ipynb` notebook.
