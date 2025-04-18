@@ -47,8 +47,17 @@ This repository contains the implementation of aspect-based learning for Vietnam
 
 ## Results
 
-- The **machine learning models** (Random Forest, SVM) provide a baseline for comparison with the more advanced deep learning models.
-- The **deep learning models** (BiGRU, Conv1D) with PhoBERT embeddings achieve better performance, especially in capturing context in Vietnamese text.
+### Machine Learning Models
+- **Random Forest and SVM** provide a strong baseline for aspect detection, achieving high accuracy in identifying aspects of Vietnamese fashion comments.
+- See evaluation metrics below:
+
+  ![Machine Learning Evaluation](images/machine_learning_evaluation.png)
+
+### Deep Learning Models
+- **BiGRU and Conv1D** with PhoBERT embeddings excel in sentiment analysis, effectively capturing contextual nuances in Vietnamese text.
+- See evaluation metrics below:
+
+  ![Deep Learning Evaluation](images/deep_learning_evaluation.png)
 
 ## Demo
 
